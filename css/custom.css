@@ -38,6 +38,8 @@ p {
   transform: translateY(-50%);
 }
 .process {
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 30px;
   padding-bottom: 70px;
   background-color: #e6e9e9;
@@ -92,7 +94,7 @@ p {
   max-height: 200px;
   margin-bottom: 50px;
   -webkit-box-shadow: 8px 8px 0px 0px #98bf21;
-  -moz-box-shadow: 8px 8px 0px 0px #98bf21;
+  -moz-box-shadow: 8px 8px 0px 0px #353dd4;
   box-shadow: 8px 8px 0px 0px #98bf21;
   -webkit-transition: box-shadow 0.3s ease-in-out 0s;
   -moz-transition: box-shadow 0.3s ease-in-out 0s;
@@ -109,7 +111,9 @@ p {
 #dartbook img, .process img {
   /*padding-bottom: 20px;*/
   -webkit-filter: drop-shadow(0px 12px 0px #353dd4);
+  -moz-box-shadow: 0px 12px 0px #353dd4;
   -webkit-transition: drop-shadow 0.3s ease-in-out 0s;
+  -moz-transition: box-shadow 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 .process h2 {
@@ -117,6 +121,7 @@ p {
 }
 #dartbook img:hover, .process img:hover {
   -webkit-filter: drop-shadow(0px 0px 0px #353dd4);
+  -moz-box-shadow: 0px 0px 0px #353dd4;
 }
 .green {
   max-height: 300px;
