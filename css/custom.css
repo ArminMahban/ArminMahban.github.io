@@ -131,13 +131,14 @@ p {
 
   background-color: #464649;
   width: 100%;
-  padding-bottom:10px;
-  padding-top: 10px;
+  padding-bottom:20px;
+  /*padding-top: 10px;*/
+  /*padding-bott*/
   /*border-top: 50px;*/
 }
 
 .footbox img {
-  padding-right: 5px;
+  padding-right: 10px;
   padding-left: 10px;
   /*background-color: red;*/
 }
@@ -153,7 +154,7 @@ p {
   border-width: 8px;
   border-color: #353dd4;
   /*border-color: #BEDB39;*/
-  color:black;
+  color:#464649;
   padding-left: 40px;
   padding-bottom: 40px;
 }
@@ -169,13 +170,17 @@ p {
   margin-top: 50px;
 }
 #aboutContent img, .footbox img {
-  padding-left: 0px;
-  padding-right: 10px;
+  /*padding-left: 0px;*/
+  /*padding-right: 10px;*/
   -webkit-transition: drop-shadow 0.1s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 #aboutContent img:hover, .footbox img:hover {
   -webkit-filter: drop-shadow(4px 0px 0px #BEDB39);
+}
+
+#aboutContent img {
+  padding-right: 10px; 
 }
 
 #skills {
