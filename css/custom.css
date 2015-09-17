@@ -108,14 +108,23 @@ p {
   box-shadow: 0px 0px 0px 0px #98bf21;
 }
 
-#dartbook img, .process img {
-  /*padding-bottom: 20px;*/
-  -webkit-filter: drop-shadow(0px 12px 0px #353dd4);
+#dartbook img, {
+  /*-webkit-filter: drop-shadow(0px 12px 0px #353dd4);
   -moz-box-shadow: 0px 12px 0px #353dd4;
   -webkit-transition: drop-shadow 0.3s ease-in-out 0s;
   -moz-transition: box-shadow 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;*/
 }
+
+.process img {
+-webkit-filter: drop-shadow(0px 12px 0px #353dd4);
+-moz-box-shadow: 0px 12px 0px #353dd4;
+-webkit-transition: drop-shadow 0.3s ease-in-out 0s;
+-moz-transition: box-shadow 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+
+
 .process h2 {
   padding-top: 20px;
 }
@@ -123,6 +132,7 @@ p {
   -webkit-filter: drop-shadow(0px 0px 0px #353dd4);
   -moz-box-shadow: 0px 0px 0px #353dd4;
 }
+
 .green {
   max-height: 300px;
 }
@@ -180,7 +190,7 @@ p {
 }
 
 #aboutContent img {
-  padding-right: 10px; 
+  padding-right: 10px;
 }
 
 #skills {
